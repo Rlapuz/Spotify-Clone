@@ -8,7 +8,6 @@ import { Footer } from '@/components/Footer';
 
 export const Home = () => {
   return (
-    <>  
         <div className='flex flex-col'>
             <div className='flex mx-2'>
               <Sidebar />
@@ -17,7 +16,6 @@ export const Home = () => {
             </div>
             <Footer />
         </div>
-    </>
   )
 }
 
