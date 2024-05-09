@@ -13,7 +13,7 @@ export default function Home() {
               <Sidebar />
               <Main />
               <RightSidebar />
-            </div>
+            </div>z
             <Footer />
         </div>
   )

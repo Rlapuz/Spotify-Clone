@@ -29,11 +29,12 @@ export const CardMain = () => {
             {[...Array(2)].map((_, index) => (
                 <div key={index} className={`mt-${index === 0 ? 6 : 3} flex gap-3`}>
                     {data.map((item, i) => (
-                        <div key={i} className="play w-[25rem] flex">
+                        <div key={i} className="play w-[25rem] flex rounded-lg">
                             <Image
                                 width={130}
                                 alt={`NextUI hero Image ${i + 1}`}
                                 src={item.imageUrl}
+                                className='rounded-lg'
                             />
                             <h1 className="text-center flex justify-center items-center ml-5 font-bold">{item.title}</h1>
                         </div>

@@ -7,6 +7,7 @@ import { MdArrowForward } from "react-icons/md";
 import { TfiMenuAlt } from "react-icons/tfi";
 
 import Image from "next/image";
+import { CardSidebar } from "./sub-component/CardSidebar";
 
 
 export const Sidebar = () => {
@@ -32,7 +33,7 @@ export const Sidebar = () => {
             </div>
             {/* <div className="line"></div> */}
 
-            <div className="shadow-sm rounded-lg mt-2 p-5 spotify flex flex-col gap-5 h-[66rem]">
+            <div className="shadow-sm rounded-lg mt-2 p-5 spotify flex flex-col h-[66rem]">
                 <nav className="flex gap-[14rem]">
                     <div className="flex gap-3 items-center">
                     <Image src="/img/assets/library1.png" className="opacity-50" width={30} height={30} alt="library"/>
@@ -44,12 +45,12 @@ export const Sidebar = () => {
                         </div>
                 </nav>
 
-                <div className="flex justify-start gap-5 mt-3">
+                <div className="flex justify-start gap-5 mt-5 mb-5">
                     <button className="rounded-2xl px-3 py-1 play opacity-75">Playlists</button>
                     <button className="rounded-2xl px-3 py-1 play opacity-75">Artists</button>
                 </div>
 
-                <div className="flex gap-[20rem]">
+                <div className="flex gap-[20rem] mb-3">
                     <div>
                         <CiSearch
                         className="font-bold"
@@ -64,6 +65,7 @@ export const Sidebar = () => {
                         />
                     </div>
                 </div>
+                <CardSidebar />
             </div>
 
             </section>

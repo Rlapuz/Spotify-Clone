@@ -53,7 +53,7 @@ export const Footer = () => {
                         </div>
                     </div>
 
-                    <div className='flex items-center gap-3'>
+                    <div className='flex items-center gap-3 opacity-75'>
                         <AiOutlinePlaySquare size={20}/>
                         <TbMicrophone2 size={20}/>
                         <HiOutlineQueueList size={20}/>

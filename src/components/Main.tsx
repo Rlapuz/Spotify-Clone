@@ -1,18 +1,22 @@
+"use client"
+
 
 import { MdOutlineArrowBackIos , MdArrowForwardIos, MdOutlineArrowCircleDown} from "react-icons/md";
 import { SlBell } from "react-icons/sl";
 import {Avatar} from "@nextui-org/avatar";
 import { CardMain } from "./sub-component/CardMain";
 import { MidMain } from "./sub-component/MidMain";
+import { useEffect } from "react";
 
 export const Main = () => {
+
     return (
       <>
       
-      <div className="flex flex-col ml-[29.5rem]">
+      <div className="flex flex-col ml-[29.2rem]">
             <div className="fixed z-40">
               <div className="pt-3 hot"></div>
-              <nav className="spot rounded-t-lg p-5 ml-2 top-0 w-[104.8rem]">
+              <nav className="spot rounded-t-lg p-5 ml-2 top-0 w-[104.7rem]">
                 <div className="flex gap-[85rem]">
                     <div className="flex gap-2"> 
                       <div className="opacity-50 rounded-2xl arrow p-1">
