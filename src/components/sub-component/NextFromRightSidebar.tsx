@@ -82,7 +82,7 @@ export const NextFromRightSidebar = () => {
             {data.map((item, index) => (
                 <main key={index} className=" flex flex-col rounded-md mb-1">
 
-                    <section className="playlist py-1 px-2 flex justify-between items-center cursor-pointer rounded-lg"
+                    <section className="playlist py-1 flex justify-between items-center cursor-pointer rounded-lg"
                         onMouseEnter={() => setHoveredIndex(index)}
                         onMouseLeave={() => setHoveredIndex(null)}
                     >
