@@ -6,7 +6,7 @@ import { RightSidebar } from '@/components/RightSidebar';
 import { Footer } from '@/components/Footer';
 
 
-export const Home = () => {
+export default function Home() {
   return (
         <div className='flex flex-col'>
             <div className='flex mx-2'>
@@ -18,5 +18,3 @@ export const Home = () => {
         </div>
   )
 }
-
-export default Home;
