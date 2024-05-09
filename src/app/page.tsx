@@ -6,7 +6,7 @@ import { RightSidebar } from '@/components/RightSidebar';
 import { Footer } from '@/components/Footer';
 
 
-export const Page = () => {
+export const Home = () => {
   return (
     <>  
         <div className='flex flex-col'>
@@ -21,4 +21,4 @@ export const Page = () => {
   )
 }
 
-export default Page;
+export default Home;
